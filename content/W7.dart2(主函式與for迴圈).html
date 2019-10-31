@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='Adout.html'>Adout</a><ul class='dropdown'><li><a href='Introduction.html'>Introduction</a><li><a href='W3.Dartpad.html'>W3.Dartpad</a><li><a href='W6Dart1for(計算數值).html'>W6Dart1for(計算數值)</a><li><a href='W7dart2(主函式與for迴圈).html'>W7dart2(主函式與for迴圈)</a></li>
+                     <li class='has-children'><a href='Adout.html'>Adout</a><ul class='dropdown'><li><a href='Introduction.html'>Introduction</a></li></ul><li class='has-children'><a href='work.html'>work</a><ul class='dropdown'><li><a href='W4.Dartpad.html'>W4.Dartpad</a><li><a href='W6.Dart1for(計算數值).html'>W6.Dart1for(計算數值)</a><li><a href='W7.dart2(主函式與for迴圈).html'>W7.dart2(主函式與for迴圈)</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,9 +149,35 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">W6Dart1for(計算數值) << <a href='W6Dart1for(計算數值).html'>Previous</a> <br /><h1>W7dart2(主函式與for迴圈)</h1>
+    <div id="tipue_search_content">W6.Dart1for(計算數值) << <a href='W6.Dart1for(計算數值).html'>Previous</a> <br /><h1>W7.dart2(主函式與for迴圈)</h1>
 <p>使用一些文字來計算出數學的內容</p>
-<p></p><br />W6Dart1for(計算數值) << <a href='W6Dart1for(計算數值).html'>Previous</a> </div>
+<script>
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script>
+<!-- 取 Dart 程式的按鈕 -->
+<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button> <button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">Sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('mass_spring_damping')">Mass Spring Damping</button> <button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('slithery')">Slithery</button> <button onclick="getFlutter('flutter1')">Flutter1</button> <button onclick="getFlutter('flutter2')">Flutter2</button> <button onclick="getFlutter('flutter3')">Flutter3</button></p>
+<!-- 內建放入的 Dart 原始碼 -->
+<p><iframe height="600" rel='"' src="https://dartpad.dartlang.org/?id=0e248ea8c2146195a1efd0dbd9be5927" width="800"><iframe></iframe></iframe></p>
+<p>gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark"&gt;</p><br />W6.Dart1for(計算數值) << <a href='W6.Dart1for(計算數值).html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
