@@ -102,44 +102,19 @@ document.getElementById("iframe").height = 600 ;
 <h4>純 Dart 程式</h4>
 <p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('Rk ex1')">Rk ex1</button> <button onclick="getDart('mass_spring_damping')">mass_spring_damping</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getDart('Roc flag')">Roc flag'</button> <button onclick="getDart('Grid')">Grid</button><button onclick="getDart('X-Yplot')">X-Yplot</button> <button onclick="getDart('Slithery')">Slithery</button> <button onclick="getDart('CF')">CF</button></p>
+<p><button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('xyplot')">X-Y Plot</button> <button onclick="getHtmlDart('slithery')">Slithery</button> <button onclick="getHtmlDart('CF')">CF</button></p>
 <h4>Flutter 程式</h4>
 <p><button onclick="getDart('flutter1')">flutter1</button> <button onclick="getDart('flutter2')">flutter2</button> <button onclick="getDart('flutter3')">flutter3</button></p>
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
 <p></p>
 <p><br/><br/><br/><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
-<p></p>
-<h2>w12.各種溫度轉換</h2>
-<p></p>
+<p></p><h2>w12.各種溫度轉換</h2>
 <p></p>
 <p></p>
-<p></p>
-<script>
-function getDart(dirname){
-    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-    document.getElementById("iframe").src = source ;
-}
-function getHtmlDart(dirname){
-    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-document.getElementById("iframe").src = source ;
-}
-function getFlutter(dirname){
-    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-document.getElementById("iframe").src = source ;
-}
-function largest(){
-document.getElementById("iframe").width = document.body.clientWidth ;
-document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
-}
-function original(){
-document.getElementById("iframe").width = 800 ;
-document.getElementById("iframe").height = 600 ;
-}
-</script>
-<h4>純 Dart 程式</h4>
-<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('Rk ex1')">Rk ex1</button> <button onclick="getDart('mass_spring_damping')">mass_spring_damping   </button><button onclick="getDart('forCF')">forCF</button></p>
+<p>純 Dart 程式</p>
+<p><button onclick="getDart('hello')">Hello</button> <button onclick="getDart('for')">For Loop</button> <button onclick="getDart('sum')">sum</button> <button onclick="getDart('runge_kutta')">Runge-Kutta</button> <button onclick="getDart('Rk ex1')">Rk ex1</button> <button onclick="getDart('mass_spring_damping')">mass_spring_damping  </button> <button onclick="getDart('forCF')">forCF</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getDart('Roc flag')">Roc flag'</button> <button onclick="getDart('Grid')">Grid</button><button onclick="getDart('X-Yplot')">X-Yplot</button> <button onclick="getDart('Slithery')">Slithery</button></p>
+<p><button onclick="getHtmlDart('roc_flag')">ROC Flag</button> <button onclick="getHtmlDart('grid')">Grid</button> <button onclick="getHtmlDart('xyplot')">X-Y Plot</button> <button onclick="getHtmlDart('slithery')">Slithery</button> <button onclick="getHtmlDart('CF')">CF</button></p>
 <h4>Flutter 程式</h4>
 <p><button onclick="getDart('flutter1')">flutter1</button> <button onclick="getDart('flutter2')">flutter2</button> <button onclick="getDart('flutter3')">flutter3</button></p>
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
