@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2019-12-12T14:24:09-00:00</lastmod>
+<lastmod>2019-12-20T21:07:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2019-12-12T14:24:09-00:00</lastmod>
+<lastmod>2019-12-20T21:07:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2019-12-12T14:24:09-00:00</lastmod>
+<lastmod>2019-12-20T21:07:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2019-12-12T14:24:09-00:00</lastmod>
+<lastmod>2019-12-20T21:07:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,6 +54,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./w14 自評互評.html</loc>
+<lastmod>2019-10-31T16:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./w14~w15中將 Dart 程式轉為 Javascript.html</loc>
 <lastmod>2019-10-31T16:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -89,6 +96,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/2019-w14-zi-ping-hu-ping.html</loc>
+<lastmod>2019-10-31T16:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/2019-w14w15zhong-jiang-dart-cheng-shi-zhuan-wei-javascript.html</loc>
 <lastmod>2019-10-31T16:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
