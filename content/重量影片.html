@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='Adout.html'>Adout</a><li><a href='Introduction.html'>Introduction</a><li class='has-children'><a href='work.1(W3~W9).html'>work.1(W3~W9)</a><ul class='dropdown'><li><a href='W4.Dartpad.html'>W4.Dartpad</a><li><a href='W6.Dart1for(計算數值).html'>W6.Dart1for(計算數值)</a><li><a href='W7.dart2(主函式與for迴圈).html'>W7.dart2(主函式與for迴圈)</a><li><a href='w9.製作期中影片.html'>w9.製作期中影片</a></li></ul><li class='has-children'><a href='work.2(W10~w ).html'>work.2(W10~w )</a><ul class='dropdown'><li><a href='w10.分組行動開始.html'>w10.分組行動開始</a><li><a href='w11..html'>w11.</a><li class='has-children'><a href='w12~w17Dart.Html.Flutter程式.html'>w12~w17Dart.Html.Flutter程式</a><ul class='dropdown'><li><a href='Javascript.html'>Javascript</a><li><a href='J-2.html'>J-2</a><li><a href='Java.kg.html'>Java.kg</a></li></li></ul></ul><li class='has-children'><a href='每週影片.html'>每週影片</a><ul class='dropdown'><li><a href='w9..html'>w9.</a><li><a href='w12..html'>w12.</a><li><a href='w13 FOR CF.html'>w13 FOR CF</a><li><a href='w14.自評影片.html'>w14.自評影片</a><li><a href='w15.將 Dart 程式轉為 Javascript 放入網站網頁中.html'>w15.將 Dart 程式轉為 Javascript 放入網站網頁中</a><li><a href='w16.html'>w16</a></li></ul><li><a href='w17考試.html'>w17考試</a><li><a href='w17重量影片.html'>w17重量影片</a></li>
+                     <li><a href='Adout.html'>Adout</a><li><a href='Introduction.html'>Introduction</a><li class='has-children'><a href='work.1(W3~W9).html'>work.1(W3~W9)</a><ul class='dropdown'><li><a href='W4.Dartpad.html'>W4.Dartpad</a><li><a href='W6.Dart1for(計算數值).html'>W6.Dart1for(計算數值)</a><li><a href='W7.dart2(主函式與for迴圈).html'>W7.dart2(主函式與for迴圈)</a><li><a href='w9.製作期中影片.html'>w9.製作期中影片</a></li></ul><li class='has-children'><a href='work.2(W10~w ).html'>work.2(W10~w )</a><ul class='dropdown'><li><a href='w10.分組行動開始.html'>w10.分組行動開始</a><li><a href='w11..html'>w11.</a><li class='has-children'><a href='w12~w17Dart.Html.Flutter程式.html'>w12~w17Dart.Html.Flutter程式</a><ul class='dropdown'><li><a href='Javascript.html'>Javascript</a><li><a href='J-2.html'>J-2</a><li><a href='Java.kg.html'>Java.kg</a></li></li></ul></ul><li class='has-children'><a href='每週影片.html'>每週影片</a><ul class='dropdown'><li><a href='w9..html'>w9.</a><li><a href='w12..html'>w12.</a><li><a href='w13 FOR CF.html'>w13 FOR CF</a><li><a href='w14.自評影片.html'>w14.自評影片</a><li><a href='w15.將 Dart 程式轉為 Javascript 放入網站網頁中.html'>w15.將 Dart 程式轉為 Javascript 放入網站網頁中</a><li><a href='w16.html'>w16</a></li></ul><li class='has-children'><a href='w17.html'>w17</a><ul class='dropdown'><li><a href='程式.html'>程式</a><li><a href='重量影片.html'>重量影片</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,39 +149,9 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">w16 << <a href='w16.html'>Previous</a> <a href='w17重量影片.html'>Next</a> >> w17重量影片<br /><h1>w17考試</h1>
-<script>
-function getDart(dirname){
-    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-    document.getElementById("iframe").src = source ;
-}
-function getHtmlDart(dirname){
-    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-document.getElementById("iframe").src = source ;
-}
-function getFlutter(dirname){
-    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823217&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
-document.getElementById("iframe").src = source ;
-}
-function largest(){
-document.getElementById("iframe").width = document.body.clientWidth ;
-document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
-}
-function original(){
-document.getElementById("iframe").width = 800 ;
-document.getElementById("iframe").height = 600 ;
-}
-</script>
-<h4>純 Dart 程式</h4>
-<p><button onclick="getDart('forkg')">FOR KG</button></p>
-<h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('KG')">KG</button></p>
-<p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><br/><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
-<p>Java.kg</p>
-<p>weight <input id="weight" max="100" min="0" type="number" value="0"/> KG <input id="submit" type="button" value="Calculate"/> <br/>LB: <label id="output"></label></p>
-<script src="./../downloads/dart_ex/KG/weight.js"></script>
-<br />w16 << <a href='w16.html'>Previous</a> <a href='w17重量影片.html'>Next</a> >> w17重量影片</div>
+    <div id="tipue_search_content">程式 << <a href='程式.html'>Previous</a> <br /><h1>重量影片</h1>
+<p><a href="https://www.youtube.com/watch?v=M2JWB3tBb6Q">https://www.youtube.com/watch?v=M2JWB3tBb6Q</a></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/M2JWB3tBb6Q" width="560"></iframe></p><br />程式 << <a href='程式.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
