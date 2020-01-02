@@ -1,20 +1,28 @@
+import "dart:html";
+GtoB(num g){
+return g*2.2;
+}
+BtoG(num b){
+return b*0.45;
+}
 main() {
+    InputElement tempInput = querySelector("#temp");
+    querySelector("#submit").onClick.listen((e) => convert(tempInput.value));
+}
+convert(String data){
   int len;
   var type;
   var number;
-  List temp = [ "25kg", "30lb", "56lb", "14kg", "68lb", "198kg"];
-  for (var data in temp) {
-    len = data.length;
-    type = data[len-2];
-    number = data.substring(0, len-2);
-    number = int.parse(number);
-    if (type == "k"){
-      double type=number*2.2;
-      print("kg:$number, =$type lb");
-    }else{
-      double type=number*0.45;
-      print("lb:$number, =$type kg");
-    }
-      
+  LabelElement output = querySelector("#output");
+  len = data.length;
+  type = data[len-2];
+  number = data.substring(0, len-2);
+  number = int.parse(number);
+  if (type == "K" || type == "k"){
+     output.innerHtml = "公斤 $number kg = 英磅 ${GtoB(number).toStringAsFixed(4)} lb";
+  } else if ((type == "L" || type == "l")){
+     output.innerHtml = "英磅 $number lb = 公斤 ${BtoG(number).toStringAsFixed(4)} kg";
+  } else {
+     output.innerHtml = "請輸入數字加上 KG 或 LB!";
   }
-} 
+}
