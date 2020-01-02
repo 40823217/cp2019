@@ -13,11 +13,11 @@ main() => print("Hello, World!");
 import 'dart:math' as math;
 
 void main() {
-  var n = 0; // °F
+  var n = 0; // LB
   print("The °F increases as:\n");
-  for (int temperatures = 0; temperatures <= 10; temperatures++) {
-    n =(temperatures*2.20462262).round().toInt();
-    print("Count $temperatures temperatures:\t $n temperatures");
+  for (int weight = 0; weight <= 10; weight++) {
+    n =(weight*2.2).round().toInt();
+    print("Count $weight weight:\t $n weight");
   }
 }
 */
@@ -25,19 +25,19 @@ void main() {
 /*
 import 'dart:math' as math;
 
-int temperatures = 0;
-const int NO_temperatures = 10;
+int weight = 0;
+const int NO_weight = 10;
 
 void main() {
-  print("The °F increases as:\n");
-  for (int temperatures = 0) {
-    temperaturesCount = calculatetemperatures(temperatures);
-    print("Count $temperatures temperatures:\t $temperaturesCount temperatures");
+  print("The LB increases as:\n");
+  for (int weight = 0) {
+    weightCount = calculateweight(weight);
+    print("Count $weight tweight:\t $weightCount weight");
   }
 }
 
-int calculatetemperatures(int temperatures) {
-  return(temperatures*2.20462262)
+int calculateweight(int weight) {
+  return(weight*2.2)
       .round()
       .toInt();
 }
@@ -47,22 +47,22 @@ import "dart:html";
 
 
 void main() {
-  querySelector("#submit").onClick.listen((e) => calctemperatures());
+  querySelector("#submit").onClick.listen((e) => calcweight());
 }
 
-calctemperatures() {
+calcweight() {
   // binding variables to html elements:
-  InputElement temperaturesInput = querySelector("#temperatures");
+  InputElement weightInput = querySelector("#weight");
   LabelElement output = querySelector("#output");
   // getting input
-  String temperaturesString = temperaturesInput.value;
-  int temperatures = int.parse(temperaturesString);
+  String weightString = weightInput.value;
+  int weight = int.parse(weightString);
   // calculating and setting output:
-  output.innerHtml = "${calculatetemperatures(temperatures)}";
+  output.innerHtml = "${calculateweight(weight)}";
 }
 
-int calculatetemperatures(int temperatures) {
-  return (temperatures*2.20462262)
+int calculateweight(int weight) {
+  return (weight*2.2)
       .round()
       .toInt();
 }
@@ -70,10 +70,10 @@ int calculatetemperatures(int temperatures) {
 /*
 html
 
-temperatures<input type="number" id="temperatures" value="0" min="0" max="100"> 
-°C
+weight<input type="number" id="temperatures" value="0" min="0" max="100"> 
+KG
 <input type="button" id="submit" value="Calculate"/>
-<br/>°F: <label id="output"></label>
+<br/>LB: <label id="output"></label>
 
 css
 

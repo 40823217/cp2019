@@ -1,4 +1,4 @@
-name: forkg
+name: weight
 mode: dart
 files:
-  - name: forkg.dart
+  - name: weight.dart

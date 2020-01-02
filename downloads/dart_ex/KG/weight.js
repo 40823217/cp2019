@@ -2725,16 +2725,16 @@
     __NamedNodeMap_Interceptor_ListMixin_ImmutableListMixin: function __NamedNodeMap_Interceptor_ListMixin_ImmutableListMixin() {
     }
   },
-  G = {
+  L = {
     main: function() {
       var t1 = J.get$onClick$x(document.querySelector("#submit")),
         t2 = H.getTypeArgumentByIndex(t1, 0);
-      W._EventStreamSubscription$(t1._target, t1._eventType, H.functionTypeCheck(new G.main_closure(), {func: 1, ret: -1, args: [t2]}), false, t2);
+      W._EventStreamSubscription$(t1._target, t1._eventType, H.functionTypeCheck(new L.main_closure(), {func: 1, ret: -1, args: [t2]}), false, t2);
     },
     main_closure: function main_closure() {
     }
   };
-  var holders = [C, H, J, P, W, G];
+  var holders = [C, H, J, P, W, L];
   hunkHelpers.setFunctionNamesIfNecessary(holders);
   var $ = {};
   H.JS_CONST.prototype = {};
@@ -4841,17 +4841,17 @@
     },
     $isSvgElement: 1
   };
-  G.main_closure.prototype = {
+  L.main_closure.prototype = {
     call$1: function(e) {
-      var t1, temperaturesInput, output, temperatures;
+      var t1, weightInput, output, weight;
       H.interceptedTypeCheck(e, "$isMouseEvent");
       t1 = document;
-      temperaturesInput = H.interceptedTypeCheck(t1.querySelector("#temperatures"), "$isInputElement");
+      weightInput = H.interceptedTypeCheck(t1.querySelector("#weight"), "$isInputElement");
       output = H.interceptedTypeCheck(t1.querySelector("#output"), "$isLabelElement");
-      temperatures = P.int_parse(temperaturesInput.value);
-      if (typeof temperatures !== "number")
-        return temperatures.$mul();
-      (output && C.LabelElement_methods).setInnerHtml$1(output, "" + C.JSInt_methods.toInt$0(C.JSNumber_methods.round$0(temperatures * 2.20462262)));
+      weight = P.int_parse(weightInput.value);
+      if (typeof weight !== "number")
+        return weight.$mul();
+      (output && C.LabelElement_methods).setInnerHtml$1(output, "" + C.JSInt_methods.toInt$0(C.JSNumber_methods.round$0(weight * 2.2)));
       return;
     },
     $signature: 18
@@ -4894,7 +4894,7 @@
     _inherit(H.MappedListIterable, H.ListIterable);
     _inherit(H.WhereIterator, P.Iterator);
     _inheritMany(P.Error, [H.NullError, H.JsNoSuchMethodError, H.UnknownJsTypeError, H.TypeErrorImplementation, H.RuntimeError, P.AssertionError, P.NullThrownError, P.ArgumentError, P.UnsupportedError, P.UnimplementedError, P.StateError, P.ConcurrentModificationError, P.CyclicInitializationError]);
-    _inheritMany(H.Closure, [H.unwrapException_saveStackTrace, H.TearOffClosure, H.initHooks_closure, H.initHooks_closure0, H.initHooks_closure1, P._AsyncRun__initializeScheduleImmediate_internalCallback, P._AsyncRun__initializeScheduleImmediate_closure, P._AsyncRun__scheduleImmediateJsOverride_internalCallback, P._AsyncRun__scheduleImmediateWithSetImmediate_internalCallback, P._TimerImpl_internalCallback, P._Future__addListener_closure, P._Future__prependListeners_closure, P._Future__chainForeignFuture_closure, P._Future__chainForeignFuture_closure0, P._Future__chainForeignFuture_closure1, P._Future__propagateToListeners_handleWhenCompleteCallback, P._Future__propagateToListeners_handleWhenCompleteCallback_closure, P._Future__propagateToListeners_handleValueCallback, P._Future__propagateToListeners_handleError, P.Stream_length_closure, P.Stream_length_closure0, P._rootHandleUncaughtError_closure, P._RootZone_bindCallback_closure, P._RootZone_bindCallbackGuarded_closure, P._RootZone_bindUnaryCallbackGuarded_closure, P.MapBase_mapToString_closure, W.Element_Element$html_closure, W._EventStreamSubscription_closure, W.NodeValidatorBuilder_allowsElement_closure, W.NodeValidatorBuilder_allowsAttribute_closure, W._SimpleNodeValidator_closure, W._SimpleNodeValidator_closure0, W._TemplatingNodeValidator_closure, W._ValidatingTreeSanitizer_sanitizeTree_walk, G.main_closure]);
+    _inheritMany(H.Closure, [H.unwrapException_saveStackTrace, H.TearOffClosure, H.initHooks_closure, H.initHooks_closure0, H.initHooks_closure1, P._AsyncRun__initializeScheduleImmediate_internalCallback, P._AsyncRun__initializeScheduleImmediate_closure, P._AsyncRun__scheduleImmediateJsOverride_internalCallback, P._AsyncRun__scheduleImmediateWithSetImmediate_internalCallback, P._TimerImpl_internalCallback, P._Future__addListener_closure, P._Future__prependListeners_closure, P._Future__chainForeignFuture_closure, P._Future__chainForeignFuture_closure0, P._Future__chainForeignFuture_closure1, P._Future__propagateToListeners_handleWhenCompleteCallback, P._Future__propagateToListeners_handleWhenCompleteCallback_closure, P._Future__propagateToListeners_handleValueCallback, P._Future__propagateToListeners_handleError, P.Stream_length_closure, P.Stream_length_closure0, P._rootHandleUncaughtError_closure, P._RootZone_bindCallback_closure, P._RootZone_bindCallbackGuarded_closure, P._RootZone_bindUnaryCallbackGuarded_closure, P.MapBase_mapToString_closure, W.Element_Element$html_closure, W._EventStreamSubscription_closure, W.NodeValidatorBuilder_allowsElement_closure, W.NodeValidatorBuilder_allowsAttribute_closure, W._SimpleNodeValidator_closure, W._SimpleNodeValidator_closure0, W._TemplatingNodeValidator_closure, W._ValidatingTreeSanitizer_sanitizeTree_walk, L.main_closure]);
     _inheritMany(H.TearOffClosure, [H.StaticClosure, H.BoundClosure]);
     _inherit(H._AssertionError, P.AssertionError);
     _inherit(P.MapBase, P.MapMixin);
@@ -5219,10 +5219,10 @@
   })(function(currentScript) {
     init.currentScript = currentScript;
     if (typeof dartMainRunner === "function")
-      dartMainRunner(G.main, []);
+      dartMainRunner(L.main, []);
     else
-      G.main([]);
+      L.main([]);
   });
 })();
 
-//# sourceMappingURL=kg.js.map
+//# sourceMappingURL=weight.js.map
