@@ -10,7 +10,7 @@ main() {
   var type;
   // 宣告 var 變數 number, 準備設為各字串中的數字
   var number; 
-  List temp =["25g","30l", "56l", "14g", "68l", "198g" ];
+  List temp =["25kg","30lb", "56lb", "14kg", "68lb", "198kg" ];
   // 利用重複迴圈, 逐一讀出各筆資料
   for (var data in temp) {
     //print(i);
@@ -33,7 +33,7 @@ main() {
     // https://api.dartlang.org/stable/2.6.1/dart-core/Object/runtimeType.html
     //print("目前 number 變數資料型別為: ${number.runtimeType}");
     // 之後就可以根據 type 與 number 執行各數列元素的重量轉換
-    if (type =="g"){
+    if (type =="k"){
       double type=number*2.20462262;
       print("kg:$number, =$type lb");
     }else{
