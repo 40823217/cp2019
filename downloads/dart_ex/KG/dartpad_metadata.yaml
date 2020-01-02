@@ -1,0 +1,6 @@
+name: kg
+mode: html
+files:
+  - name: kg.dart
+  - name: index.html
+  - name: style.css

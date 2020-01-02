@@ -1,0 +1,4 @@
+name: forkg
+mode: dart
+files:
+  - name: forkg.dart
