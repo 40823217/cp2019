@@ -121,7 +121,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 寫入for公式將數字加起來
+<t tx="leo.20180902120523.17">## 2.for 迴圈
 &lt;iframe width="800" height="550" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/for&amp;amp;theme=dark"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -293,7 +293,7 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108211530.1">##  使用dart導入Hello Word 
+<t tx="leo.20200108211530.1">##  1.Hello Word
 &lt;iframe width="800" height="550" rel="&amp;quot;" src="https://dartpad.dev?id=221b8041829a6869756c7950a8f25b99"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20200108221713.1"></t>
@@ -308,7 +308,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108221809.2">## 利用dart來做阻尼力的實驗
+<t tx="leo.20200108221809.2">3.阻尼實驗
 &lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108221853.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -321,9 +321,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108221853.2">## 寫入溫度轉換公式
-##在打入所需數字即可
- 
+<t tx="leo.20200108221853.2">## 4.溫度轉換
 &lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forCF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234822.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -336,9 +334,8 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234822.2">## 寫入溫度轉換公式
-##在打入所需數字即可
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/random_grouping&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200108234822.2">## 5.亂數編組
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/random_grouping&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234827.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -350,9 +347,8 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234827.2">## 寫入溫度轉換公式
-##在打入所需數字即可
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forkg&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200108234827.2">## 6.重量轉換
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234829.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -364,9 +360,8 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234829.2">## 寫入溫度轉換公式
-##在打入所需數字即可
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/flag&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200108234829.2">## 7.各國國旗
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234831.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -378,7 +373,8 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234831.2">##在一開始接觸這門課時，說真的我一點都不懂這是要做啥的
+<t tx="leo.20200108234831.2">#心得
+在一開始接觸這門課時，說真的我一點都不懂這是要做啥的
 但在慢慢看完老師的影片時，突然覺得並沒有這麼困難，只是
 先前沒有聽過相關的東西而已，所以才在一開始就矇掉，不知
 到要幹嘛，但到先在學了不少的東西，雖然也還不是很熟，但
