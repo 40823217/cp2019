@@ -91,7 +91,7 @@ Created by [KMOLab](http://lab.kmol.info/)
 * 5.[亂數分組](https://40823217.github.io/cp2019/reveal/index.html#/2/4)
 * 6.[重量轉換](https://40823217.github.io/cp2019/reveal/index.html#/2/5)
 * 7.[各國國旗](https://40823217.github.io/cp2019/reveal/index.html#/2/6)
-* 8.[心得](https://40823217.github.io/cp2019/reveal/index.html#/3)
+* 8.[心得](https://40823217.github.io/cp2019/reveal/index.html#/2/7)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -322,7 +322,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200108221853.2">## 4.溫度轉換
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forCF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823217&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/CF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234822.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -348,7 +348,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200108234827.2">## 6.重量轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/KG&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234829.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -373,7 +373,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200108234831.2">#心得
+<t tx="leo.20200108234831.2"># #心得
 在一開始接觸這門課時，說真的我一點都不懂這是要做啥的
 但在慢慢看完老師的影片時，突然覺得並沒有這麼困難，只是
 先前沒有聽過相關的東西而已，所以才在一開始就矇掉，不知
