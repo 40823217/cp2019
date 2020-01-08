@@ -25,15 +25,20 @@
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20180902120523.14"><vh>1.Hello Word</vh>
+<v t="leo.20200108211530.1"><vh>程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>2.for 迴圈</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>3.阻尼實驗</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
+<v t="leo.20200108211648.1"><vh>4.溫度轉換</vh></v>
+<v t="leo.20200108211746.1"><vh>5.亂數編組</vh></v>
+<v t="leo.20200108211742.1"><vh>6.重量轉換</vh></v>
+<v t="leo.20200108211745.1"><vh>7.各國國旗</vh></v>
+<v t="leo.20200108211741.1"><vh>8.心得</vh></v>
 </v>
 </v>
 </v>
@@ -68,13 +73,14 @@ Created by [KMOLab](http://lab.kmol.info/)
 </t>
 <t tx="leo.20180902120523.12"># 計算機程式課程目錄
 
-* 1.Hello Word
-* 2.for 迴圈
-* 3.阻尼實驗
-* 4.溫度轉換
-* 5.亂數分組
-* 6.重量轉換
-*7.各國國旗
+* 1.[Hello Word](https://40823217.github.io/cp2019/reveal/index.html#/2)
+* 2.[for 迴圈](
+* 3.[阻尼實驗](
+* 4.[溫度轉換](
+* 5.[亂數分組](
+* 6.[重量轉換](
+* 7.[各國國旗](
+* 8.[心得](
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -93,10 +99,6 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.15"># 1.使用dart導入Hello Word 
-
-https://dartpad.dev/?id=221b8041829a6869756c7950a8f25b99
-</t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -108,34 +110,10 @@ https://dartpad.dev/?id=221b8041829a6869756c7950a8f25b99
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+<t tx="leo.20180902120523.17"># 2.寫入for公式將數字加起來
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
+
+&lt;iframe width="800" height="600" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/for&amp;amp;theme=dark"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -255,7 +233,7 @@ make.start()
     /*font-family: DejaVu Sans Mono;*/
     font-family:YaHei Mono;
     /* 標題字型大小設定 */
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
  }
@@ -268,7 +246,7 @@ QTreeWidget QLineEdit {
     /*font-family: DejaVu Sans Mono;*/    
     font-family:YaHei Mono;
     /* 沒有特別對應字型大小 */
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
 }
@@ -281,7 +259,7 @@ QTextEdit {
     /* font-family: Courier New; */
     font-family:YaHei Mono;
     /* log font 大小 */
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal; /* normal,bold,100,..,900 */
     font-style: normal; /* normal, italic,oblique */
 }
@@ -321,5 +299,14 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200108211530.1"># 1.使用dart導入Hello Word 
+
+&lt;iframe width="800" height="600" rel="&amp;quot;" src="https://dartpad.dev?id=221b8041829a6869756c7950a8f25b99"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200108211648.1"></t>
+<t tx="leo.20200108211741.1"></t>
+<t tx="leo.20200108211742.1"></t>
+<t tx="leo.20200108211745.1"></t>
+<t tx="leo.20200108211746.1"></t>
 </tnodes>
 </leo_file>
