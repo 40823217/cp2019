@@ -322,6 +322,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200108221853.2">## 4.溫度轉換
+
 &lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823217&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/CF&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200108234822.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -374,12 +375,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200108234831.2"># 心得
-在一開始接觸這門課時，說真的我一點都不懂這是要做啥的
-但在慢慢看完老師的影片時，突然覺得並沒有這麼困難，只是
-先前沒有聽過相關的東西而已，所以才在一開始就矇掉，不知
-到要幹嘛，但到先在學了不少的東西，雖然也還不是很熟，但
-東西是日積月累，而且學習是永遠沒有盡頭的，所以還要繼續
-學習下去
+在一開始接觸這門課時，說真的我一點都不懂這是要做啥的但在慢慢看完老師的影片時，突然覺得並沒有這麼困難，只是先前沒有聽過相關的東西而已，所以才在一開始就矇掉，不知到要嘛，但到先在學了不少的東西，雖然也還不是很熟，但東西是日積月累，而且學習是永遠沒有盡頭的，所以還要繼續學習下去。
 </t>
 </tnodes>
 </leo_file>
