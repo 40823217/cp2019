@@ -25,14 +25,19 @@
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
+<v t="leo.20200108221713.1"><vh>newHeadline</vh></v>
 <v t="leo.20180902120523.14"><vh>1.Hello Word</vh>
 <v t="leo.20200108211530.1"><vh>程式碼</vh></v>
+</v>
 <v t="leo.20180902120523.16"><vh>2.for 迴圈</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
+<v t="leo.20200108221809.1"><vh>3.阻尼實驗</vh>
+<v t="leo.20200108221809.2"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18"><vh>3.阻尼實驗</vh></v>
-<v t="leo.20200108211648.1"><vh>4.溫度轉換</vh></v>
+<v t="leo.20200108221853.1"><vh>4.溫度轉換</vh>
+<v t="leo.20200108221853.2"><vh>引用程式碼</vh></v>
+</v>
 <v t="leo.20200108211746.1"><vh>5.亂數編組</vh></v>
 <v t="leo.20200108211742.1"><vh>6.重量轉換</vh></v>
 <v t="leo.20200108211745.1"><vh>7.各國國旗</vh></v>
@@ -69,16 +74,16 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.12"># 計算機程式課程目錄
+<t tx="leo.20180902120523.12">###計算機程式課程目錄
 
-* 1.[Hello Word](https://40823217.github.io/cp2019/reveal/index.html#/2)
-* 2.[for 迴圈](https://40823217.github.io/cp2019/reveal/index.html#/2/1)
-* 3.[阻尼實驗](https://40823217.github.io/cp2019/reveal/index.html#/2/2)
-* 4.[溫度轉換](https://40823217.github.io/cp2019/reveal/index.html#/2/3)
-* 5.[亂數分組](https://40823217.github.io/cp2019/reveal/index.html#/2/4)
-* 6.[重量轉換](https://40823217.github.io/cp2019/reveal/index.html#/2/5)
-* 7.[各國國旗](https://40823217.github.io/cp2019/reveal/index.html#/2/6)
-* 8.[心得](https://40823217.github.io/cp2019/reveal/index.html#/3)
+* ##1.[Hello Word](https://40823217.github.io/cp2019/reveal/index.html#/2)
+*##2.[for 迴圈](https://40823217.github.io/cp2019/reveal/index.html#/2/1)
+*## 3.[阻尼實驗](https://40823217.github.io/cp2019/reveal/index.html#/2/2)
+* ##4.[溫度轉換](https://40823217.github.io/cp2019/reveal/index.html#/2/3)
+* ##5.[亂數分組](https://40823217.github.io/cp2019/reveal/index.html#/2/4)
+* ##6.[重量轉換](https://40823217.github.io/cp2019/reveal/index.html#/2/5)
+* ##7.[各國國旗](https://40823217.github.io/cp2019/reveal/index.html#/2/6)
+* ##8.[心得](https://40823217.github.io/cp2019/reveal/index.html#/3)
 
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
@@ -108,20 +113,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 2.寫入for公式將數字加起來
+<t tx="leo.20180902120523.17">## 寫入for公式將數字加起來
 &lt;iframe width="800" height="550" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/for&amp;amp;theme=dark"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-## 使用dart做阻尼力的實驗
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark"&gt;&lt;/iframe&gt;
-
-
-
-		</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -292,24 +285,40 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108211530.1">##  1.使用dart導入Hello Word 
+<t tx="leo.20200108211530.1">##  使用dart導入Hello Word 
 &lt;iframe width="800" height="550" rel="&amp;quot;" src="https://dartpad.dev?id=221b8041829a6869756c7950a8f25b99"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;
 </t>
-<t tx="leo.20200108211648.1">&lt;section data-markdown&gt;
+<t tx="leo.20200108211741.1"></t>
+<t tx="leo.20200108211742.1"></t>
+<t tx="leo.20200108211745.1"></t>
+<t tx="leo.20200108211746.1"></t>
+<t tx="leo.20200108221713.1"></t>
+<t tx="leo.20200108221809.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-## 寫入溫度轉換公式
+
+
+
+						
+</t>
+<t tx="leo.20200108221809.2">## 利用dart可以來做阻尼力的實驗
+&lt;iframe width="800" height="550" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark"&gt;&lt;iframe&gt;&lt;/iframe&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200108221853.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200108221853.2">## 寫入溫度轉換公式
 ##在打入所需數字即可
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forCF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;
-
-
-						</t>
-<t tx="leo.20200108211741.1"></t>
-<t tx="leo.20200108211742.1"></t>
-<t tx="leo.20200108211745.1"></t>
-<t tx="leo.20200108211746.1"></t>
+&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forCF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
