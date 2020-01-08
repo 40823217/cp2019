@@ -117,7 +117,7 @@ Created by [KMOLab](http://lab.kmol.info/)
     &lt;/script&gt;
 &lt;/section&gt;
 ## 使用dart做阻尼力的實驗
-&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark"&gt;&lt;/iframe&gt;&lt;
+&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;amp;theme=dark"&gt;&lt;/iframe&gt;
 
 
 
@@ -301,7 +301,9 @@ vertical: body pane on the botton</t>
 @others
     &lt;/script&gt;
 &lt;/section&gt;
-
+## 寫入溫度轉換公式
+##在打入所需數字即可
+&lt;iframe width="800" height="550" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/forCF&amp;amp;theme=dark"&gt;&lt;/iframe&gt;
 
 
 						</t>
